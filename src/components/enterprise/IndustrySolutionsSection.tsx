@@ -15,7 +15,7 @@ export const IndustrySolutionsSection: React.FC = () => {
 
   return (
     <section className="py-20 bg-slate-50/50 dark:bg-[#070b19]/60 border-t border-b border-slate-200/80 dark:border-slate-800/80 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -86,38 +86,38 @@ export const IndustrySolutionsSection: React.FC = () => {
         </div>
 
         {/* Enterprise Compliance & Trust Banner */}
-        <div className="rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-slate-900 via-[#0a1228] to-slate-900 border border-cyan-500/30 text-white shadow-xl relative overflow-hidden">
+        <div className="rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-slate-100 via-cyan-50/50 to-slate-100 dark:from-slate-900 dark:via-[#0a1228] dark:to-slate-900 border border-slate-300 dark:border-cyan-500/30 text-slate-900 dark:text-white shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
             <div className="lg:col-span-4 space-y-3">
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-cyan-950/90 text-cyan-300 border border-cyan-500/40">
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-cyan-50 dark:bg-cyan-950/90 text-cyan-800 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-500/40">
                 <Lock className="w-3.5 h-3.5" />
                 <span>{t('compliance.badge', 'INSTITUTIONAL TRUST & INTEGRITY')}</span>
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold font-['Outfit']">
+              <h3 className="text-xl sm:text-2xl font-bold font-['Outfit'] text-slate-900 dark:text-white">
                 {t('compliance.title', 'Security, Data Sovereignty & Canadian Compliance')}
               </h3>
-              <p className="text-xs text-slate-300 leading-relaxed">
+              <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                 {t('compliance.desc', 'Info Tech Microsystems operates under rigorous compliance baselines, ensuring non-disclosure security, sovereign data containment, and audit traceability for government and enterprise partners.')}
               </p>
             </div>
 
             <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
               {COMPLIANCE_STANDARDS.map((std: ComplianceStandard) => (
-                <div key={std.id} className="p-4 rounded-xl bg-slate-950/60 border border-slate-800/90 space-y-1.5 hover:border-cyan-500/40 transition-colors">
+                <div key={std.id} className="p-4 rounded-xl bg-white dark:bg-slate-950/60 border border-slate-200 dark:border-slate-800/90 space-y-1.5 hover:border-cyan-500/40 transition-colors shadow-sm">
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-mono text-cyan-400 font-semibold px-2 py-0.5 rounded bg-cyan-950/80 border border-cyan-500/30">
+                    <span className="text-[10px] font-mono text-cyan-700 dark:text-cyan-400 font-semibold px-2 py-0.5 rounded bg-cyan-50 dark:bg-cyan-950/80 border border-cyan-200 dark:border-cyan-500/30">
                       {std.badge}
                     </span>
-                    <span className="text-[10px] text-slate-400 font-mono">
+                    <span className="text-[10px] text-slate-500 dark:text-slate-400 font-mono">
                       {std.governanceScope}
                     </span>
                   </div>
-                  <h4 className="text-sm font-bold text-white font-['Outfit'] pt-1">
+                  <h4 className="text-sm font-bold text-slate-900 dark:text-white font-['Outfit'] pt-1">
                     {std.name}
                   </h4>
-                  <p className="text-xs text-slate-400 leading-snug">
+                  <p className="text-xs text-slate-600 dark:text-slate-400 leading-snug">
                     {std.description}
                   </p>
                 </div>

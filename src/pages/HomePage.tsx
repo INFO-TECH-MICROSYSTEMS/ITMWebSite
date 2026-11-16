@@ -39,14 +39,14 @@ export const HomePage: React.FC = () => {
   return (
     <div className="relative overflow-hidden">
       {/* Background Circuit & Glow Accents */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[650px] pointer-events-none overflow-hidden z-0">
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full w-full h-[650px] pointer-events-none overflow-hidden z-0">
         <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[120px]"></div>
         <div className="absolute top-[10%] right-[-10%] w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[120px]"></div>
         <div className="absolute inset-0 circuit-pattern opacity-40"></div>
       </div>
 
       {/* Hero Section */}
-      <section className="relative z-10 pt-12 pb-20 lg:pt-20 lg:pb-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative z-10 pt-12 pb-20 lg:pt-20 lg:pb-28 w-full px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           {/* Top Pill */}
           <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-cyan-50 border border-cyan-200 text-cyan-700 dark:bg-cyan-950/80 dark:border-cyan-500/30 dark:text-cyan-300 mb-6 backdrop-blur-md shadow-sm dark:shadow-lg dark:shadow-cyan-950/30 font-mono">
@@ -146,7 +146,7 @@ export const HomePage: React.FC = () => {
 
       {/* The 7 Dedicated Services Section */}
       <section className="relative z-10 py-16 bg-slate-100/70 dark:bg-[#080c1d] border-y border-slate-200 dark:border-cyan-500/15">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
             <div>
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 border border-cyan-200 text-cyan-700 dark:bg-cyan-950/80 dark:text-cyan-400 dark:border-cyan-500/30 mb-2 font-mono">
@@ -262,7 +262,7 @@ export const HomePage: React.FC = () => {
       </section>
 
       {/* Corporate Mission & Engineering Philosophy Section */}
-      <section className="relative z-10 py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative z-10 py-20 w-full px-4 sm:px-6 lg:px-8">
         <div className="rounded-3xl p-8 sm:p-12 bg-gradient-to-r from-cyan-50/70 via-white to-purple-50/70 dark:from-slate-900/90 dark:via-[#0d1326]/95 dark:to-slate-900/90 border border-slate-200 dark:border-cyan-500/30 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl pointer-events-none"></div>
 
@@ -341,7 +341,7 @@ export const HomePage: React.FC = () => {
 
       {/* Tech Stack & Modern Technologies Section */}
       <section className="relative z-10 py-16 bg-white dark:bg-[#060814] border-t border-slate-200 dark:border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="w-full px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-xs font-mono uppercase tracking-widest text-cyan-700 dark:text-cyan-400 mb-2 font-bold">
             {t('techStack.badge', 'MODERN TOOLCHAINS & ECOSYSTEMS')}
           </div>
@@ -381,7 +381,7 @@ export const HomePage: React.FC = () => {
       <DeliveryFrameworkSection />
 
       {/* Bottom CTA & Direct Consultation Banner */}
-      <section className="relative z-10 py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative z-10 py-20 w-full px-4 sm:px-6 lg:px-8">
         <div className="rounded-3xl p-8 sm:p-12 bg-gradient-to-r from-cyan-100/80 via-blue-50 to-purple-100/80 dark:from-cyan-900/40 dark:via-blue-900/30 dark:to-purple-900/40 border border-cyan-200 dark:border-cyan-400/30 text-center relative overflow-hidden shadow-xl">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white font-['Outfit'] mb-4">

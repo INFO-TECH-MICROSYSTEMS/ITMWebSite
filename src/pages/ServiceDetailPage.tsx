@@ -48,7 +48,7 @@ export const ServiceDetailPage: React.FC = () => {
   const serviceFullTitle = service.title;
 
   return (
-    <div className="py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-10 w-full px-4 sm:px-6 lg:px-8">
       {/* Breadcrumb Navigation */}
       <nav className="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 mb-8 font-mono">
         <Link to="/" className="hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors">

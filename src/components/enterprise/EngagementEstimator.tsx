@@ -175,36 +175,36 @@ export const EngagementEstimator: React.FC = () => {
         </div>
 
         {/* Output Estimation Card */}
-        <div className="lg:col-span-5 p-6 rounded-2xl bg-gradient-to-br from-slate-900 via-slate-900 to-[#0a1226] border border-cyan-500/40 text-white shadow-xl space-y-5">
-          <div className="flex items-center justify-between border-b border-slate-800 pb-3">
-            <span className="text-xs font-mono uppercase tracking-wider text-cyan-400 font-bold">
+        <div className="lg:col-span-5 p-6 rounded-2xl bg-gradient-to-br from-slate-100 via-cyan-50/50 to-slate-100 dark:from-slate-900 dark:via-slate-900 dark:to-[#0a1226] border border-slate-300 dark:border-cyan-500/40 text-slate-900 dark:text-white shadow-xl space-y-5">
+          <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
+            <span className="text-xs font-mono uppercase tracking-wider text-cyan-700 dark:text-cyan-400 font-bold">
               {t('estimator.summaryTitle', 'Estimated Scope Summary')}
             </span>
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-950 text-cyan-300 border border-cyan-500/30">
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-100 dark:bg-cyan-950 text-cyan-800 dark:text-cyan-300 border border-cyan-200 dark:border-cyan-500/30">
               CAD Currency
             </span>
           </div>
 
           <div>
-            <span className="text-xs text-slate-400 font-mono block">
+            <span className="text-xs text-slate-500 dark:text-slate-400 font-mono block">
               {t('estimator.projectedCostRange', 'Projected Investment Range:')}
             </span>
-            <div className="text-2xl sm:text-3xl font-black text-cyan-400 font-['Outfit'] mt-1">
+            <div className="text-2xl sm:text-3xl font-black text-cyan-600 dark:text-cyan-400 font-['Outfit'] mt-1">
               ${(estimatedCost * 0.95).toLocaleString()} – ${(estimatedCost * 1.05).toLocaleString()}
             </div>
-            <span className="text-[11px] text-slate-400 mt-1 block">
+            <span className="text-[11px] text-slate-500 dark:text-slate-400 mt-1 block">
               Based on {durationWeeks} weeks of embedded delivery ({currentModel.name}).
             </span>
           </div>
 
-          <div className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2 text-xs">
-            <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block font-semibold">
+          <div className="p-3.5 rounded-xl bg-white dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 space-y-2 text-xs shadow-sm">
+            <span className="text-[10px] font-mono uppercase tracking-wider text-slate-500 dark:text-slate-400 block font-semibold">
               {t('estimator.includedDeliverables', 'Standard Verified Deliverables:')}
             </span>
             <ul className="space-y-1.5">
               {currentModel.deliverables.map((deliv, idx) => (
-                <li key={idx} className="flex items-center gap-2 text-slate-300">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                <li key={idx} className="flex items-center gap-2 text-slate-700 dark:text-slate-300">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400 shrink-0" />
                   <span>{deliv}</span>
                 </li>
               ))}
@@ -215,9 +215,9 @@ export const EngagementEstimator: React.FC = () => {
             <button
               type="button"
               onClick={handleCopySummary}
-              className="flex-1 py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 cursor-pointer border border-slate-700"
+              className="flex-1 py-2.5 px-4 rounded-xl bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-900 dark:text-white font-semibold text-xs transition-colors flex items-center justify-center gap-2 cursor-pointer border border-slate-300 dark:border-slate-700"
             >
-              {copied ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+              {copied ? <Check className="w-4 h-4 text-emerald-600 dark:text-emerald-400" /> : <Copy className="w-4 h-4" />}
               <span>{copied ? t('common.copied', 'Copied to Clipboard!') : t('estimator.copyScope', 'Copy Scope Summary')}</span>
             </button>
             <Link

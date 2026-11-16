@@ -17,7 +17,7 @@ export const EcosystemPartnersStrip: React.FC = () => {
 
   return (
     <div className="py-10 border-t border-b border-slate-200/70 dark:border-slate-800/80 bg-slate-50/50 dark:bg-[#070b18]/40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-6">
           <span className="text-[11px] font-mono uppercase tracking-widest text-slate-500 dark:text-slate-400 font-semibold">
             {t('ecosystem.title', 'ENTERPRISE TOOLCHAINS & CLOUD ECOSYSTEM FLUENCY')}
