@@ -10,7 +10,7 @@
 
 ## 1. Executive Summary
 
-This document provides a comprehensive traceability matrix mapping every client and architectural requirement to its corresponding implementation in the **INFO TECH MICROSYSTEMS** repository, including verification status and test evidence.
+This document provides a comprehensive traceability matrix mapping every client and architectural requirement to its corresponding implementation in the **Info Tech Microsystems** repository, including verification status and test evidence.
 
 ---
 
@@ -20,7 +20,7 @@ This document provides a comprehensive traceability matrix mapping every client 
 | Req ID | Requirement Description | Implementation Reference | Verification Evidence | Status |
 | :---: | :--- | :--- | :--- | :---: |
 | **REQ-CORP-01** | High-resolution brand emblems with reactive dark/light mode switching. | [`TopHeader.tsx`](../src/components/TopHeader.tsx), [`Footer.tsx`](../src/components/Footer.tsx) | Automatic swapping between `itm-logo-dark.png` and `itm-logo-light.png`. | **PASS** |
-| **REQ-CORP-02** | Founder spotlight featuring Sudarsha Wijenayake with credentials and photo. | [`AboutPage.tsx`](../src/pages/AboutPage.tsx), [`HomePage.tsx`](../src/pages/HomePage.tsx) | Portrait rendering with cyber gradient borders and biographical narrative. | **PASS** |
+| **REQ-CORP-02** | Corporate mission and engineering philosophy spotlight. | [`AboutPage.tsx`](../src/pages/AboutPage.tsx), [`HomePage.tsx`](../src/pages/HomePage.tsx) | Corporate mandate and engineering philosophy showcase. | **PASS** |
 | **REQ-CORP-03** | Verified Ottawa Canadian Headquarters with complete address and phone. | [`AboutPage.tsx`](../src/pages/AboutPage.tsx), [`ContactPage.tsx`](../src/pages/ContactPage.tsx) | 113 Whernside Terrace, Ottawa, ON, Canada, K2W0C7 • +1 613 266 5285. | **PASS** |
 
 ---
@@ -83,5 +83,5 @@ This document provides a comprehensive traceability matrix mapping every client 
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Quality Assurance & Audit Governance.</sub>
+  <sub>Document maintained by Info Tech Microsystems Quality Assurance & Audit Governance.</sub>
 </div>

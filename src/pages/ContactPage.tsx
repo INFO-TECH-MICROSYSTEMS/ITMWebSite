@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -23,10 +23,10 @@ export const ContactPage: React.FC = () => {
           <span>{t('contactPage.badge', 'DIRECT EXECUTIVE COMMUNICATION')}</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white font-['Outfit'] mb-4">
-          {t('contactPage.title', 'Contact INFO TECH MICROSYSTEMS')}
+          {t('contactPage.title', 'Contact Info Tech Microsystems')}
         </h1>
         <p className="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-          {t('contactPage.description', 'Reach out directly to Principal Consultant Sudarsha Wijenayake to discuss your software engineering, quality assurance, training, staffing, or audit requirements.')}
+          {t('contactPage.description', 'Reach out directly to Info Tech Microsystems to discuss your software engineering, quality assurance, training, staffing, or audit requirements.')}
         </p>
       </div>
 
@@ -91,34 +91,13 @@ export const ContactPage: React.FC = () => {
                   {t('contactPage.companyEmailLabel', 'Company Inquiries Email')}
                 </span>
                 <a 
-                  href="mailto:info.tech.microsystems.ca@gmail.com"
+                  href="mailto:contact@infotechmicrosystems.com"
                   className="text-sm font-semibold text-cyan-700 dark:text-cyan-300 hover:underline mt-1 inline-block transition-colors break-all"
                 >
-                  info.tech.microsystems.ca@gmail.com
+                  contact@infotechmicrosystems.com
                 </a>
                 <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
                   {t('contactPage.generalInquiries', 'General & Project Inquiries')}
-                </p>
-              </div>
-            </div>
-
-            {/* Principal Consultant Email */}
-            <div className="flex items-start space-x-4">
-              <div className="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/60 border border-purple-200 dark:border-purple-500/30 flex items-center justify-center text-purple-700 dark:text-purple-400 shrink-0">
-                <Mail className="w-5 h-5" />
-              </div>
-              <div>
-                <span className="text-xs uppercase font-mono tracking-wider text-slate-500 dark:text-slate-400 font-semibold block">
-                  {t('contactPage.principalEmailLabel', 'Principal Consultant Direct')}
-                </span>
-                <a 
-                  href="mailto:sudarsha.wijenayake@gmail.com"
-                  className="text-sm font-semibold text-purple-700 dark:text-purple-300 hover:underline mt-1 inline-block transition-colors break-all"
-                >
-                  sudarsha.wijenayake@gmail.com
-                </a>
-                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                  {t('contactPage.attnSudarsha', 'Attn: Sudarsha Wijenayake (Founder)')}
                 </p>
               </div>
             </div>
@@ -166,7 +145,7 @@ export const ContactPage: React.FC = () => {
             <div className="rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 p-4 text-center">
               <div className="p-4 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-cyan-500/20 text-xs text-slate-700 dark:text-slate-300 shadow-sm">
                 <div className="font-bold text-slate-900 dark:text-white mb-1">
-                  {t('contactPage.hqTitle', 'INFO TECH MICROSYSTEMS Headquarters')}
+                  {t('contactPage.hqTitle', 'Info Tech Microsystems Headquarters')}
                 </div>
                 <div className="text-slate-600 dark:text-slate-400">113 Whernside Terrace, Ottawa, ON K2W0C7, Canada</div>
                 <div className="mt-2 text-cyan-700 dark:text-cyan-400 font-mono">

@@ -10,7 +10,7 @@
 
 ## 1. Overview & Build Pipeline
 
-The INFO TECH MICROSYSTEMS web suite compiles into an optimized, zero-dependency static artifact bundle containing pre-minified HTML, CSS, JavaScript chunks, and static media assets.
+The Info Tech Microsystems web suite compiles into an optimized, zero-dependency static artifact bundle containing pre-minified HTML, CSS, JavaScript chunks, and static media assets.
 
 ```mermaid
 graph LR
@@ -185,5 +185,5 @@ jobs:
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Cloud & DevOps Infrastructure.</sub>
+  <sub>Document maintained by Info Tech Microsystems Cloud & DevOps Infrastructure.</sub>
 </div>

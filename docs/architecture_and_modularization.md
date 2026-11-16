@@ -10,7 +10,7 @@
 
 ## 1. Executive Architecture Summary
 
-**INFO TECH MICROSYSTEMS Web & Telemetry Suite** is an enterprise-grade Single Page Application (SPA) designed to showcase corporate service disciplines, provide interactive engineering calculators, and deliver a client-side enterprise KPI governance platform.
+**Info Tech Microsystems Web & Telemetry Suite** is an enterprise-grade Single Page Application (SPA) designed to showcase corporate service disciplines, provide interactive engineering calculators, and deliver a client-side enterprise KPI governance platform.
 
 The application adheres to clean architecture principles:
 *   **Modular Componentization**: Strict decoupling of presentation components, business computation services, persistence layers, and internationalization adapters.
@@ -169,5 +169,5 @@ The architecture incorporates key design patterns that simplify ongoing extensio
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Architecture Governance Board.</sub>
+  <sub>Document maintained by Info Tech Microsystems Architecture Governance Board.</sub>
 </div>

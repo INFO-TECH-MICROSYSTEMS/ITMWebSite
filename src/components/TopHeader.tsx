@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -47,7 +47,7 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onMenuClick }) => {
                 }}
               />
               <span className="font-extrabold text-sm tracking-wide bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text text-transparent font-['Outfit']">
-                INFO TECH MICROSYSTEMS
+                Info Tech Microsystems
               </span>
             </Link>
           </div>
@@ -73,12 +73,12 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onMenuClick }) => {
                 </span>
               </a>
               <a 
-                href="mailto:info.tech.microsystems.ca@gmail.com" 
+                href="mailto:contact@infotechmicrosystems.com" 
                 className="flex items-center space-x-1.5 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
                 aria-label="Email"
               >
                 <Mail className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" />
-                <span>info.tech.microsystems.ca@gmail.com</span>
+                <span>contact@infotechmicrosystems.com</span>
               </a>
             </div>
           </div>

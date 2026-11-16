@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -33,13 +33,13 @@ export const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <img 
                   src={theme === 'dark' ? '/assets/itm-logo-dark.png' : '/assets/itm-logo-light.png'} 
-                  alt="INFO TECH MICROSYSTEMS Logo" 
+                  alt="Info Tech Microsystems Logo" 
                   className="h-12 w-auto object-contain"
                 />
               </div>
             </Link>
             <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed max-w-md">
-              <strong className="text-slate-900 dark:text-white font-semibold">INFO TECH MICROSYSTEMS</strong>{' '}
+              <strong className="text-slate-900 dark:text-white font-semibold">Info Tech Microsystems</strong>{' '}
               {t('footer.description', 'is an engineering, quality assurance, strategic advisory, and technical talent consultancy based in Ottawa, Ontario, Canada. We architect resilient enterprise software, guarantee quality, track KPIs, and empower teams.')}
             </p>
 
@@ -57,8 +57,8 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-cyan-600 dark:text-cyan-400 shrink-0" />
-                <a href="mailto:info.tech.microsystems.ca@gmail.com" className="hover:text-cyan-700 dark:hover:text-cyan-400 transition-colors">
-                  info.tech.microsystems.ca@gmail.com
+                <a href="mailto:contact@infotechmicrosystems.com" className="hover:text-cyan-700 dark:hover:text-cyan-400 transition-colors">
+                  contact@infotechmicrosystems.com
                 </a>
               </div>
             </div>
@@ -156,12 +156,12 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/about" className="text-slate-600 hover:text-cyan-700 dark:text-slate-400 dark:hover:text-cyan-400 transition-colors block">
-                  {t('footer.aboutItm', 'About INFO TECH MICROSYSTEMS')}
+                  {t('footer.aboutItm', 'About Info Tech Microsystems')}
                 </Link>
               </li>
               <li>
                 <Link to="/about#founder" className="text-slate-600 hover:text-cyan-700 dark:text-slate-400 dark:hover:text-cyan-400 transition-colors block">
-                  {t('footer.leadership', 'Leadership (Sudarsha Wijenayake)')}
+                  {t('footer.leadership', 'About & Mission')}
                 </Link>
               </li>
               <li>
@@ -177,15 +177,15 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright and legal disclaimer */}
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 space-y-4 md:space-y-0">
           <div>
-            © {currentYear} INFO TECH MICROSYSTEMS. {t('footer.allRightsReserved', 'All rights reserved.')}
+            © {currentYear} Info Tech Microsystems. {t('footer.allRightsReserved', 'All rights reserved.')}
           </div>
           <div className="flex items-center space-x-6">
             <span>{t('footer.ottawaCanada', 'Ottawa, Ontario, Canada')}</span>
             <span>•</span>
             <span>{t('footer.phone', 'Phone: +1 613 266 5285')}</span>
             <span>•</span>
-            <a href="mailto:info.tech.microsystems.ca@gmail.com" className="text-cyan-700 dark:text-cyan-400 hover:underline">
-              info.tech.microsystems.ca@gmail.com
+            <a href="mailto:contact@infotechmicrosystems.com" className="text-cyan-700 dark:text-cyan-400 hover:underline">
+              contact@infotechmicrosystems.com
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@
 
 ## 1. Visual Identity & Design Principles
 
-The INFO TECH MICROSYSTEMS design system merges high-technology precision with executive authority:
+The Info Tech Microsystems design system merges high-technology precision with executive authority:
 *   **Precision & Rigor**: Sharp, purposeful typography, monospaced data indicators, and mathematical accuracy.
 *   **Dual-Aesthetic Harmony**: A high-impact cyber dark mode with luminous neon accents balanced against a pristine, accessible corporate light mode.
 *   **Information Hierarchy**: Multi-layer cards, glassmorphic backdrop filters, and clear visual signifiers that draw focus to actionable metrics.
@@ -106,5 +106,5 @@ export const KPI_STATUS_THEMES = {
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS UI/UX Design System Team.</sub>
+  <sub>Document maintained by Info Tech Microsystems UI/UX Design System Team.</sub>
 </div>

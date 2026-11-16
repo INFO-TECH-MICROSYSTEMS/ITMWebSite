@@ -10,7 +10,7 @@
 
 ## 1. Accessibility Commitment & Principles
 
-INFO TECH MICROSYSTEMS is dedicated to providing an inclusive, universally accessible digital experience for all users, including software developers, engineering leaders, and auditors with visual, motor, auditory, or cognitive disabilities.
+Info Tech Microsystems is dedicated to providing an inclusive, universally accessible digital experience for all users, including software developers, engineering leaders, and auditors with visual, motor, auditory, or cognitive disabilities.
 
 Our accessibility framework is built on the four core WCAG principles:
 1.  **Perceivable**: Information and UI components are presentable to users in ways they can perceive (e.g. text contrast, screen reader compatibility).
@@ -70,5 +70,5 @@ Every interactive control on the platform is fully operable without a mouse:
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Quality & Accessibility Engineering.</sub>
+  <sub>Document maintained by Info Tech Microsystems Quality & Accessibility Engineering.</sub>
 </div>

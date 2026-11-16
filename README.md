@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="public/assets/itm-logo-dark.png" alt="INFO TECH MICROSYSTEMS Logo" width="130" height="130" />
-  <h1>INFO TECH MICROSYSTEMS</h1>
+  <img src="public/assets/itm-logo-dark.png" alt="Info Tech Microsystems Logo" width="130" height="130" />
+  <h1>Info Tech Microsystems</h1>
   <p><b>Enterprise Software Engineering, Architectural Advisory, QA Automation & KPI Governance</b></p>
   <p>
     <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19.2.8-blue.svg" alt="React 19" /></a>
@@ -16,7 +16,7 @@
 
 <br />
 
-Welcome to the official repository for **INFO TECH MICROSYSTEMS (ITM)**. Headquartered in Canada's technology capital (**Ottawa, Ontario**), INFO TECH MICROSYSTEMS was founded by Principal Technology Consultant **Sudarsha Wijenayake** to bridge the critical gap between executive technology strategy and production-grade software delivery.
+Welcome to the official repository for **Info Tech Microsystems (ITM)**. Headquartered in Canada's technology capital (**Ottawa, Ontario**), Info Tech Microsystems bridges the critical gap between executive technology strategy and production-grade software delivery.
 
 This web application combines corporate service specifications with an offline-first **Enterprise KPI Telemetry Engine** powered by client-side IndexedDB, offering interactive engineering calculators, DORA velocity assessments, and full globalization across 11 international languages.
 
@@ -40,7 +40,7 @@ This web application combines corporate service specifications with an offline-f
   - Native Right-to-Left (RTL) reading layout support for Arabic.
 - ♿ **WCAG 2.1 AA Accessibility**: Full keyboard navigation across all menus, sliders, tabs, and modals, screen reader compatibility, and dual-coded visual status indicators.
 - 🌓 **Cyberpunk Neon & Corporate Theming**: Interactive theme switcher providing a luminous cyber dark mode and a crisp executive light mode.
-- 📩 **Direct Executive Communication**: Secure corporate inquiry workflow routing directly to `info.tech.microsystems.ca@gmail.com` (CC: `sudarsha.wijenayake@gmail.com`) with one-click clipboard copying.
+- 📩 **Direct Corporate Communication**: Secure corporate inquiry workflow routing directly to `contact@infotechmicrosystems.com` with one-click clipboard copying.
 
 ---
 
@@ -119,16 +119,14 @@ We maintain an extensive, professional documentation portfolio adhering to enter
 
 ## 🏢 Corporate Headquarters & Contact
 
-*   **Corporate Entity:** INFO TECH MICROSYSTEMS
-*   **Founder & Principal Consultant:** Sudarsha Wijenayake
+*   **Corporate Entity:** Info Tech Microsystems
 *   **Headquarters:** 113 Whernside Terrace, Ottawa, Ontario, Canada, K2W0C7
 *   **Operating Timezone:** Eastern Standard Time (EST / EDT) • Kanata North Technology Corridor
 *   **Telephone (Canada):** [+1 613 266 5285](tel:+16132665285)
-*   **Company Inquiries:** [info.tech.microsystems.ca@gmail.com](mailto:info.tech.microsystems.ca@gmail.com)
-*   **Principal Consultant Direct:** [sudarsha.wijenayake@gmail.com](mailto:sudarsha.wijenayake@gmail.com)
+*   **Company Inquiries:** [contact@infotechmicrosystems.com](mailto:contact@infotechmicrosystems.com)
 
 ---
 
 <div align="center">
-  <sub>© 2026 INFO TECH MICROSYSTEMS. All Rights Reserved. • Built with precision in Ottawa, Canada</sub>
+  <sub>© 2026 Info Tech Microsystems. All Rights Reserved. • Built with precision in Ottawa, Canada</sub>
 </div>

@@ -127,7 +127,7 @@ Every `.ts` and `.tsx` file in `src/` must begin with the standard copyright hea
 
 ```typescript
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -195,5 +195,5 @@ To inspect or manipulate the client-side IndexedDB engine in Google Chrome or Mi
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Developer Operations.</sub>
+  <sub>Document maintained by Info Tech Microsystems Developer Operations.</sub>
 </div>

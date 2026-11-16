@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -88,7 +88,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               className={`flex items-center gap-2.5 overflow-hidden transition-all duration-200 group ${
                 isCollapsed ? 'lg:justify-center lg:w-full' : ''
               }`}
-              title="INFO TECH MICROSYSTEMS"
+              title="Info Tech Microsystems"
             >
               <div className="relative overflow-hidden rounded-lg p-1 bg-gradient-to-br from-cyan-500/20 via-blue-600/10 to-purple-600/20 border border-cyan-500/30 group-hover:border-cyan-400 transition-all shrink-0">
                 <img 
@@ -291,25 +291,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
           </div>
 
-          {/* Quality Engineering KPI Platform Link */}
-          <Link
-            to="/kpi"
-            title={isCollapsed ? t('nav.kpiDashboard', 'KPI Dashboard') : undefined}
-            className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all ${
-              isActive('/kpi')
-                ? 'text-cyan-700 bg-cyan-50 border border-cyan-200 dark:text-cyan-300 dark:bg-cyan-950/60 dark:border-cyan-500/40 shadow-sm'
-                : 'text-slate-700 hover:text-cyan-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:text-cyan-300 dark:hover:bg-slate-800/60'
-            } ${isCollapsed ? 'lg:justify-center lg:px-2' : ''}`}
-          >
-            <BarChart3 className="w-5 h-5 shrink-0 text-cyan-600 dark:text-cyan-400" />
-            <div className={`flex items-center gap-2 truncate ${isCollapsed ? 'lg:hidden' : 'flex'}`}>
-              <span className="truncate">{t('nav.kpiDashboard', 'KPI Dashboard')}</span>
-              <span className="text-[9px] bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold px-1.5 py-0.5 rounded-full uppercase tracking-wider">
-                {t('nav.live', 'Live')}
-              </span>
-            </div>
-          </Link>
-
           {/* Interactive Tools & Calculators Link */}
           <Link
             to="/tools"
@@ -326,10 +307,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
           </Link>
 
-          {/* Leadership & About */}
+          {/* About Us & Mission */}
           <Link
             to="/about"
-            title={isCollapsed ? t('nav.leadershipAndAbout', 'Leadership & About') : undefined}
+            title={isCollapsed ? t('nav.leadershipAndAbout', 'About Us & Mission') : undefined}
             className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-all ${
               isActive('/about')
                 ? 'text-cyan-700 bg-cyan-50 border border-cyan-200 dark:text-cyan-300 dark:bg-cyan-950/60 dark:border-cyan-500/40 shadow-sm'
@@ -337,7 +318,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             } ${isCollapsed ? 'lg:justify-center lg:px-2' : ''}`}
           >
             <Users className="w-5 h-5 shrink-0 text-cyan-600 dark:text-cyan-400" />
-            <span className={`truncate ${isCollapsed ? 'lg:hidden' : 'block'}`}>{t('nav.leadershipAndAbout', 'Leadership & About')}</span>
+            <span className={`truncate ${isCollapsed ? 'lg:hidden' : 'block'}`}>{t('nav.leadershipAndAbout', 'About Us & Mission')}</span>
           </Link>
 
           {/* Contact Us */}
@@ -412,12 +393,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </a>
 
             <a 
-              href="mailto:info.tech.microsystems.ca@gmail.com" 
+              href="mailto:contact@infotechmicrosystems.com" 
               className="flex items-center gap-1.5 hover:text-cyan-600 dark:hover:text-cyan-300 transition-colors truncate"
-              title="info.tech.microsystems.ca@gmail.com"
+              title="contact@infotechmicrosystems.com"
             >
               <Mail className="w-3 h-3 text-cyan-600 dark:text-cyan-400 shrink-0" />
-              <span className="truncate">info.tech.microsystems.ca...</span>
+              <span className="truncate">contact@infotechmicrosystems.com</span>
             </a>
           </div>
 

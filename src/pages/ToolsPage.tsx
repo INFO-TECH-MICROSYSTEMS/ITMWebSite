@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -103,7 +103,7 @@ export const ToolsPage: React.FC = () => {
   const auditMaturityPercentage = Math.round((completedAuditItems / totalAuditItems) * 100);
 
   const copyAuditSummary = () => {
-    let report = `INFO TECH MICROSYSTEMS - SOFTWARE PROJECT AUDIT REPORT\n`;
+    let report = `Info Tech Microsystems - SOFTWARE PROJECT AUDIT REPORT\n`;
     report += `Generated at: ${new Date().toLocaleDateString()}\n`;
     report += `Overall Engineering Maturity Score: ${auditMaturityPercentage}%\n\n`;
 
@@ -115,7 +115,7 @@ export const ToolsPage: React.FC = () => {
       });
       report += `\n`;
     });
-    report += `Contact INFO TECH MICROSYSTEMS at info.tech.microsystems.ca@gmail.com (CC: sudarsha.wijenayake@gmail.com) / +1 613 266 5285 for remediation.\n`;
+    report += `Contact Info Tech Microsystems at contact@infotechmicrosystems.com / +1 613 266 5285 for remediation.\n`;
 
     navigator.clipboard.writeText(report);
     setAuditReportCopied(true);
@@ -511,13 +511,13 @@ export const ToolsPage: React.FC = () => {
               {t('toolsAudit.formalAuditCtaTitle', 'Need a Formal Third-Party Audit for Compliance or Due Diligence?')}
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-4">
-              {t('toolsAudit.formalAuditCtaDesc', 'INFO TECH MICROSYSTEMS delivers signed executive reports covering architecture viability, code quality indices, SOC2/ISO controls, and QA coverage.')}
+              {t('toolsAudit.formalAuditCtaDesc', 'Info Tech Microsystems delivers signed executive reports covering architecture viability, code quality indices, SOC2/ISO controls, and QA coverage.')}
             </p>
             <Link
               to="/contact"
               className="inline-flex items-center space-x-2 px-6 py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-slate-950 font-bold text-xs shadow-md transition-all cursor-pointer"
             >
-              <span>{t('toolsAudit.scheduleAuditBtn', 'Schedule Formal Audit with Sudarsha Wijenayake')}</span>
+              <span>{t('toolsAudit.scheduleAuditBtn', 'Schedule Formal Engineering Audit')}</span>
               <ArrowRight className="w-4 h-4 rtl:rotate-180" />
             </Link>
           </div>
@@ -661,7 +661,7 @@ export const ToolsPage: React.FC = () => {
             </div>
 
             <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-              {t('toolsCapacity.recruitmentBlurb', 'Need to scale up or staff missing roles? INFO TECH MICROSYSTEMS recruits pre-vetted Developers, SDETs, and Managers.')}
+              {t('toolsCapacity.recruitmentBlurb', 'Need to scale up or staff missing roles? Info Tech Microsystems recruits pre-vetted Developers, SDETs, and Managers.')}
             </p>
 
             <Link
@@ -678,22 +678,13 @@ export const ToolsPage: React.FC = () => {
       {/* --- TAB 4: Core KPI Reference Glossary --- */}
       {activeTab === 'kpis' && (
         <div className="space-y-6">
-          <div className="p-6 rounded-2xl bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 mb-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
-            <div>
-              <h2 className="text-xl font-bold text-slate-900 dark:text-white font-['Outfit'] mb-1">
-                {t('toolsGlossary.directoryTitle', 'Enterprise Software KPI Reference Directory')}
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-                {t('toolsGlossary.directorySubtitle', 'Standardized metrics, calculation formulas, target benchmarks, and business justifications used by INFO TECH MICROSYSTEMS.')}
-              </p>
-            </div>
-            <Link
-              to="/kpi"
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500 text-white font-semibold text-xs shadow-md shrink-0 transition-all cursor-pointer"
-            >
-              <BarChart3 className="w-4 h-4" />
-              <span>{t('toolsGlossary.launchLiveKpi', 'Launch Live KPI Platform →')}</span>
-            </Link>
+          <div className="p-6 rounded-2xl bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 mb-6 shadow-sm">
+            <h2 className="text-xl font-bold text-slate-900 dark:text-white font-['Outfit'] mb-1">
+              {t('toolsGlossary.directoryTitle', 'Enterprise Software KPI Reference Directory')}
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+              {t('toolsGlossary.directorySubtitle', 'Standardized metrics, calculation formulas, target benchmarks, and business justifications used by Info Tech Microsystems.')}
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

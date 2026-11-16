@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -33,8 +33,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
   const [copied, setCopied] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
 
-  const companyEmail = 'info.tech.microsystems.ca@gmail.com';
-  const personalEmail = 'sudarsha.wijenayake@gmail.com';
+  const companyEmail = 'contact@infotechmicrosystems.com';
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData(prev => ({
@@ -46,8 +45,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
   const getMailtoUrl = () => {
     const subject = encodeURIComponent(`[ITM Inquiry] - ${formData.serviceRequested} - from ${formData.fullName}`);
     const body = encodeURIComponent(
-      `Dear Sudarsha Wijenayake / INFO TECH MICROSYSTEMS,\n\n` +
-      `You have received a new consultation inquiry from the INFO TECH MICROSYSTEMS website:\n\n` +
+      `Dear Info Tech Microsystems Team,\n\n` +
+      `You have received a new consultation inquiry from the Info Tech Microsystems website:\n\n` +
       `--------------------------------------------------\n` +
       `CLIENT DETAILS:\n` +
       `• Name: ${formData.fullName}\n` +
@@ -61,16 +60,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
       `MESSAGE / INQUIRY DETAILS:\n` +
       `${formData.message}\n` +
       `--------------------------------------------------\n` +
-      `Sent via INFO TECH MICROSYSTEMS web portal`
+      `Sent via Info Tech Microsystems web portal`
     );
-    return `mailto:${companyEmail}?cc=${personalEmail}&subject=${subject}&body=${body}`;
+    return `mailto:${companyEmail}?subject=${subject}&body=${body}`;
   };
 
   const handleCopyInquiry = () => {
     const text = 
-      `Inquiry for INFO TECH MICROSYSTEMS:\n` +
+      `Inquiry for Info Tech Microsystems:\n` +
       `Company Email: ${companyEmail}\n` +
-      `Principal Consultant: ${personalEmail}\n` +
       `From: ${formData.fullName} (${formData.email}, ${formData.phone})\n` +
       `Company: ${formData.company}\n` +
       `Service: ${formData.serviceRequested}\n` +
@@ -94,7 +92,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
     setErrorMessage('');
 
     try {
-      const response = await fetch(`https://formspree.io/f/info.tech.microsystems.ca@gmail.com`, {
+      const response = await fetch(`https://formspree.io/f/contact@infotechmicrosystems.com`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -111,7 +109,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
           message: formData.message,
           _replyto: formData.email,
           _subject: `New Inquiry for ITM: ${formData.serviceRequested} (${formData.fullName})`,
-          _cc: personalEmail,
           recipient: companyEmail
         })
       });
@@ -137,17 +134,13 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
           {t('contactForm.successTitle', 'Inquiry Successfully Prepared!')}
         </h3>
         <p className="text-slate-600 dark:text-slate-300 text-center text-sm mb-6 max-w-lg mx-auto">
-          {t('contactForm.successDesc', { name: formData.fullName, defaultValue: `Thank you, ${formData.fullName}. Your message for INFO TECH MICROSYSTEMS has been recorded and routed.` })}
+          {t('contactForm.successDesc', { name: formData.fullName, defaultValue: `Thank you, ${formData.fullName}. Your message for Info Tech Microsystems has been recorded and routed.` })}
         </p>
 
         <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 text-xs space-y-2 mb-6 text-slate-700 dark:text-slate-300 font-mono">
           <div className="flex justify-between border-b border-slate-200 dark:border-slate-800/80 pb-1">
-            <span className="text-slate-500 dark:text-slate-400">Company Email:</span>
+            <span className="text-slate-500 dark:text-slate-400">Inquiries Email:</span>
             <span className="text-cyan-700 dark:text-cyan-400 font-semibold">{companyEmail}</span>
-          </div>
-          <div className="flex justify-between border-b border-slate-200 dark:border-slate-800/80 pb-1">
-            <span className="text-slate-500 dark:text-slate-400">Principal Consultant (CC):</span>
-            <span className="text-purple-700 dark:text-purple-400 font-semibold">{personalEmail}</span>
           </div>
           <div className="flex justify-between border-b border-slate-200 dark:border-slate-800/80 pb-1">
             <span className="text-slate-500 dark:text-slate-400">Service:</span>
@@ -207,10 +200,10 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
           <span>{t('contactForm.badge', 'Direct Executive Inquiry')}</span>
         </div>
         <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white font-['Outfit']">
-          {t('contactForm.title', 'Send a Message to Sudarsha Wijenayake')}
+          {t('contactForm.title', 'Send Us a Message')}
         </h3>
         <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 mt-1">
-          {t('contactForm.inquiriesDelivered', 'Inquiries are delivered directly to info.tech.microsystems.ca@gmail.com (CC: sudarsha.wijenayake@gmail.com) or phone +1 613 266 5285.')}
+          {t('contactForm.inquiriesDelivered', 'Inquiries are delivered directly to contact@infotechmicrosystems.com or phone +1 613 266 5285.')}
         </p>
       </div>
 
@@ -407,7 +400,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService, classN
             </>
           ) : (
             <>
-              <span>{t('contactForm.sendButton', 'Send Message to Sudarsha')}</span>
+              <span>{t('contactForm.sendButton', 'Submit Corporate Inquiry')}</span>
               <Send className="w-4 h-4 rtl:rotate-180" />
             </>
           )}

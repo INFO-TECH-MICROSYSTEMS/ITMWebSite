@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -61,7 +61,7 @@ export const ServicesOverviewPage: React.FC = () => {
           {t('servicesOverview.title', 'Professional Software & Engineering Services')}
         </h1>
         <p className="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-          {t('servicesOverview.subtitle', 'INFO TECH MICROSYSTEMS delivers specialized engineering, advisory, testing, talent, and metrics governance. Explore our dedicated offerings below or select a service for full architectural specifications.')}
+          {t('servicesOverview.subtitle', 'Info Tech Microsystems delivers specialized engineering, advisory, testing, talent, and metrics governance. Explore our dedicated offerings below or select a service for full architectural specifications.')}
         </p>
       </div>
 
@@ -174,7 +174,7 @@ export const ServicesOverviewPage: React.FC = () => {
           {t('engagementModels.title', 'Flexible Client Engagement Models')}
         </h3>
         <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-6">
-          {t('engagementModels.subtitle', 'Whether you need a dedicated turnkey delivery squad, strategic advisory retainer, or individual elite staff augmentation in Ottawa or globally, INFO TECH MICROSYSTEMS adapts to your operating cadence.')}
+          {t('engagementModels.subtitle', 'Whether you need a dedicated turnkey delivery squad, strategic advisory retainer, or individual elite staff augmentation in Ottawa or globally, Info Tech Microsystems adapts to your operating cadence.')}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 text-xs text-left max-w-4xl mx-auto">
           <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800">

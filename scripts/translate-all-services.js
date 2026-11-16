@@ -18,8 +18,8 @@ const langPacks = {
       s7: "Alinee la productividad de la ingeniería con los objetivos estratégicos mediante marcos de competencias y retención."
     },
     summaries: {
-      s1: "Desde prototipos iniciales hasta plataformas cloud multinquilino críticas, INFO TECH MICROSYSTEMS diseña, construye, optimiza y mantiene sistemas de software de alto rendimiento adaptados a sus objetivos empresariales.",
-      s2: "INFO TECH MICROSYSTEMS aporta liderazgo técnico senior y consultoría estratégica a sus iniciativas de software para eliminar puntos ciegos, acelerar el lanzamiento al mercado y garantizar la excelencia arquitectónica.",
+      s1: "Desde prototipos iniciales hasta plataformas cloud multinquilino críticas, Info Tech Microsystems diseña, construye, optimiza y mantiene sistemas de software de alto rendimiento adaptados a sus objetivos empresariales.",
+      s2: "Info Tech Microsystems aporta liderazgo técnico senior y consultoría estratégica a sus iniciativas de software para eliminar puntos ciegos, acelerar el lanzamiento al mercado y garantizar la excelencia arquitectónica.",
       s3: "Capacitamos a sus equipos técnicos con planes de estudio orientados a la producción que cubren arquitecturas modernas, desarrollo guiado por pruebas (TDD), CI/CD y estándares de codificación segura.",
       s4: "Garantizamos la máxima fiabilidad mediante estrategias de pruebas automatizadas, pruebas de rendimiento bajo carga extrema y gobernanza de puertas de calidad en CI/CD.",
       s5: "Reclutamos desarrolladores, ingenieros de automatización (SDET) y líderes técnicos evaluados mediante rigurosas auditorías de código y pruebas de diseño de sistemas.",
@@ -46,8 +46,8 @@ const langPacks = {
       s7: "Optimisez la performance technique et fidélisez vos talents clés grâce à des référentiels de compétences clairs."
     },
     summaries: {
-      s1: "Du prototype initial aux plateformes cloud multi-locataires critiques, INFO TECH MICROSYSTEMS conçoit, développe, optimise et maintient des systèmes logiciels haute performance adaptés à vos ambitions.",
-      s2: "INFO TECH MICROSYSTEMS intègre un leadership technique chevronné et du conseil stratégique dans vos projets logiciels pour éliminer les angles morts et garantir l'excellence architecturale.",
+      s1: "Du prototype initial aux plateformes cloud multi-locataires critiques, Info Tech Microsystems conçoit, développe, optimise et maintient des systèmes logiciels haute performance adaptés à vos ambitions.",
+      s2: "Info Tech Microsystems intègre un leadership technique chevronné et du conseil stratégique dans vos projets logiciels pour éliminer les angles morts et garantir l'excellence architecturale.",
       s3: "Nous formons vos équipes avec des programmes concrets couvrant les architectures modernes, le développement piloté par les tests (TDD), l'automatisation CI/CD et la sécurité.",
       s4: "Nous assurons une fiabilité logicielle maximale grâce à des tests automatisés de bout en bout, des tests de charge et une gouvernance stricte des déploiements.",
       s5: "Nous recrutons des développeurs seniors, ingénieurs SDET et managers pré-évalués par des tests de code approfondis et des revues d'architecture réelles.",
@@ -74,7 +74,7 @@ const langPacks = {
       s7: "Strukturierte Leistungsförderung, transparente Kompetenzmodelle und nachhaltige Entwickler-Bindung."
     },
     summaries: {
-      s1: "Vom Prototyp bis zur geschäftskritischen Mandanten-Cloud-Plattform: INFO TECH MICROSYSTEMS entwickelt, optimiert und betreibt hochperformante Softwaresysteme.",
+      s1: "Vom Prototyp bis zur geschäftskritischen Mandanten-Cloud-Plattform: Info Tech Microsystems entwickelt, optimiert und betreibt hochperformante Softwaresysteme.",
       s2: "Wir unterstützen Ihre Softwareinitiativen mit fundierter technischer Führung und Architekturberatung, um Risiken frühzeitig zu eliminieren.",
       s3: "Wir schulen Entwickler in testgetriebener Entwicklung (TDD), modernen Frameworks, CI/CD-Pipelines und sicheren Codierungsstandards.",
       s4: "Umfassende Qualitätssicherung mit automatisierten End-to-End-, API- und Lasttests für fehlerfreie Releases.",
@@ -102,7 +102,7 @@ const langPacks = {
       s7: "明確な技術キャリアラダーと公正な評価基準により、優秀なエンジニアの定着と成長を促進。"
     },
     summaries: {
-      s1: "初期プロトタイプから基幹マルチテナントクラウドまで、INFO TECH MICROSYSTEMSはビジネス目標に最適化された高信頼性システムを構築・保守します。",
+      s1: "初期プロトタイプから基幹マルチテナントクラウドまで、Info Tech Microsystemsはビジネス目標に最適化された高信頼性システムを構築・保守します。",
       s2: "経験豊富なシニアアーキテクトが貴社プロジェクトに参画し、技術的盲点を排除して市場投入期間の短縮と高品質を両立します。",
       s3: "テスト駆動開発（TDD）、最新クラウドアーキテクチャ、CI/CD自動化など、現場で直ちに役立つコードレベルの企業研修を提供します。",
       s4: "自動リグレッションテスト、高負荷パフォーマンステスト、CIパイプライン品質ゲートにより、本番障害をゼロに近づけます。",
@@ -130,7 +130,7 @@ const langPacks = {
       s7: "تطوير أطر الكفاءات المهنية وأنظمة التقييم العادلة لتعزيز الرضا الوظيفي والحفاظ على الكفاءات التقنية."
     },
     summaries: {
-      s1: "من النماذج الأولية إلى المنصات السحابية المعقدة، تقوم INFO TECH MICROSYSTEMS بتصميم وبناء وصيانة أنظمة برمجية فائقة الأداء.",
+      s1: "من النماذج الأولية إلى المنصات السحابية المعقدة، تقوم Info Tech Microsystems بتصميم وبناء وصيانة أنظمة برمجية فائقة الأداء.",
       s2: "نقدم قيادة تقنية متقدمة واستشارات استراتيجية لمشاريعك البرمجية لتجاوز العقبات المعمارية وتسريع الإطلاق.",
       s3: "ندرب فرق العمل لديك على منهجيات التطوير الموجه بالاختبار (TDD)، وأتمتة التكامل المستمر (CI/CD)، والبرمجة الآمنة.",
       s4: "نضمن أعلى درجات الاستقرار للبرمجيات من خلال اختبارات الأداء والأتمتة الشاملة وبوابات الجودة الصارمة.",
@@ -158,7 +158,7 @@ const langPacks = {
       s7: "योग्यता रूपरेखा और पारदर्शी मूल्यांकन के माध्यम से उच्च-प्रदर्शन इंजीनियरिंग प्रतिभा को बनाए रखें।"
     },
     summaries: {
-      s1: "प्रारंभिक प्रोटोटाइप से लेकर मिशन-क्रिटिकल मल्टी-टेनेंट क्लाउड प्लेटफॉर्म तक, INFO TECH MICROSYSTEMS उच्च प्रदर्शन सॉफ्टवेयर सिस्टम का निर्माण और रखरखाव करता है।",
+      s1: "प्रारंभिक प्रोटोटाइप से लेकर मिशन-क्रिटिकल मल्टी-टेनेंट क्लाउड प्लेटफॉर्म तक, Info Tech Microsystems उच्च प्रदर्शन सॉफ्टवेयर सिस्टम का निर्माण और रखरखाव करता है।",
       s2: "हम सॉफ्टवेयर पहलों में अनुभवी तकनीकी नेतृत्व जोड़ते हैं ताकि तकनीकी कमियों को समाप्त किया जा सके और समय पर डिलीवरी सुनिश्चित हो।",
       s3: "हम आपकी टीमों को टेस्ट-ड्रिवन डेवलपमेंट (TDD), आधुनिक आर्किटेक्चर और सुरक्षित कोडिंग प्रथाओं में व्यावहारिक प्रशिक्षण देते हैं।",
       s4: "हम स्वचालित रिग्रेशन, लोड परीक्षण और CI/CD गेट्स के साथ सॉफ्टवेयर की अधिकतम स्थिरता सुनिश्चित करते हैं।",
@@ -186,7 +186,7 @@ const langPacks = {
       s7: "Alinhe a produtividade técnica com metas estratégicas por meio de planos de carreira claros e retenção de talentos."
     },
     summaries: {
-      s1: "Do protótipo inicial a plataformas em nuvem multitenant de missão crítica, a INFO TECH MICROSYSTEMS projeta, constrói e mantém softwares de alto desempenho.",
+      s1: "Do protótipo inicial a plataformas em nuvem multitenant de missão crítica, a Info Tech Microsystems projeta, constrói e mantém softwares de alto desempenho.",
       s2: "Incorporamos liderança técnica sênior e consultoria especializada aos seus projetos para eliminar riscos e garantir excelência técnica.",
       s3: "Treinamos seus engenheiros em desenvolvimento orientado a testes (TDD), arquiteturas modernas e automação de entrega contínua.",
       s4: "Garantimos estabilidade máxima por meio de suítes de testes automatizados, testes de carga e barreiras de qualidade no CI/CD.",
@@ -214,7 +214,7 @@ const langPacks = {
       s7: "Управление эффективностью технических специалистов, прозрачные карьерные матрицы и удержание ключевых кадров."
     },
     summaries: {
-      s1: "От прототипа до критически важных многопользовательских облачных платформ: INFO TECH MICROSYSTEMS проектирует, создает и обслуживает высокопроизводительные системы.",
+      s1: "От прототипа до критически важных многопользовательских облачных платформ: Info Tech Microsystems проектирует, создает и обслуживает высокопроизводительные системы.",
       s2: "Мы привносим опытное техническое руководство и стратегический консалтинг в ваши инициативы, устраняя архитектурные риски.",
       s3: "Обучаем команды разработке через тестирование (TDD), современным микросервисам, CI/CD автоматизации и стандартам безопасности.",
       s4: "Обеспечиваем надежность с помощью сквозных автоматических тестов, нагрузочного тестирования и строгих проверок в CI/CD.",
@@ -242,7 +242,7 @@ const langPacks = {
       s7: "দক্ষতা কাঠামো এবং স্বচ্ছ মূল্যায়নের মাধ্যমে কারিগরি দলের সন্তুষ্টি ও দীর্ঘমেয়াদী স্থায়িত্ব বজায় রাখুন।"
     },
     summaries: {
-      s1: "প্রাথমিক প্রোটোটাইপ থেকে শুরু করে মিশন-ক্রিটিক্যাল ক্লাউড প্ল্যাটফর্ম পর্যন্ত, INFO TECH MICROSYSTEMS উচ্চ ক্ষমতাসম্পন্ন সফটওয়্যার তৈরি ও পরিচালনা করে।",
+      s1: "প্রাথমিক প্রোটোটাইপ থেকে শুরু করে মিশন-ক্রিটিক্যাল ক্লাউড প্ল্যাটফর্ম পর্যন্ত, Info Tech Microsystems উচ্চ ক্ষমতাসম্পন্ন সফটওয়্যার তৈরি ও পরিচালনা করে।",
       s2: "আমরা সফটওয়্যার প্রকল্পগুলোতে অভিজ্ঞ কারিগরি নেতৃত্ব যুক্ত করি যাতে অন্ধবিশ্বাস দূর হয় এবং দ্রুত নির্ভুল ডেলিভারি সম্ভব হয়।",
       s3: "আমরা টেস্ট-ড্রিভেন ডেভেলপমেন্ট (TDD), আধুনিক ক্লাউড আর্কিটেকচার এবং স্বয়ংক্রিয় CI/CD প্রক্রিয়াতে দলগুলোকে বাস্তব প্রশিক্ষণ দিই।",
       s4: "আমরা স্বয়ংক্রিয় রিগ্রেশন টেস্ট, লোড টেস্টিং এবং উন্নত গেটের মাধ্যমে সফটওয়্যারের সর্বোচ্চ নির্ভরযোগ্যতা নিশ্চিত করি।",

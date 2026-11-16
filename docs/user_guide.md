@@ -1,4 +1,4 @@
-# INFO TECH MICROSYSTEMS - End-User Guide & Interactive Manual
+# Info Tech Microsystems - End-User Guide & Interactive Manual
 
 **Document Version:** 2.4.0  
 **Effective Date:** September 2026  
@@ -8,9 +8,9 @@
 
 ---
 
-## 1. Welcome to INFO TECH MICROSYSTEMS
+## 1. Welcome to Info Tech Microsystems
 
-Welcome to the official enterprise web portal and interactive engineering suite for **INFO TECH MICROSYSTEMS**. Headquartered in Ottawa, Ontario, Canada, INFO TECH MICROSYSTEMS is an elite engineering consultancy founded by **Sudarsha Wijenayake** to bridge the gap between high-level technology strategy and production-grade software delivery.
+Welcome to the official enterprise web portal and interactive engineering suite for **Info Tech Microsystems**. Headquartered in Ottawa, Ontario, Canada, Info Tech Microsystems is an elite engineering consultancy bridging the gap between high-level technology strategy and production-grade software delivery.
 
 This manual provides an in-depth walkthrough of all user capabilities, online tools, telemetry views, and configuration options available on this platform.
 
@@ -129,11 +129,11 @@ Ready to engage on a formal project, schedule an architecture audit, or discuss 
     *   *Service Offering Required* (select from the 7 disciplines or comprehensive turnkey)
     *   *Engagement Timeline* and *Project Budget Scope*
     *   *Technical Details & Requirements*
-3.  Click **"Send Message to Sudarsha"**.
-4.  The system records the inquiry, provides a pre-formatted email launch action, and enables one-click clipboard copying for direct delivery to `info.tech.microsystems.ca@gmail.com` (CC: `sudarsha.wijenayake@gmail.com`).
+3.  Click **"Submit Corporate Inquiry"**.
+4.  The system records the inquiry, provides a pre-formatted email launch action, and enables one-click clipboard copying for direct delivery to `contact@infotechmicrosystems.com`.
 
 ---
 
 <div align="center">
-  <sub>© 2026 INFO TECH MICROSYSTEMS. For technical inquiries, call +1 613 266 5285.</sub>
+  <sub>© 2026 Info Tech Microsystems. For technical inquiries, call +1 613 266 5285.</sub>
 </div>

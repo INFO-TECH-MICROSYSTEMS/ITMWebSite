@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 const COPYRIGHT_HEADER = `/**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -25,7 +25,7 @@ function walkDir(dir, callback) {
 let modifiedCount = 0;
 walkDir('src', filePath => {
   const content = fs.readFileSync(filePath, 'utf8');
-  if (!content.includes('Copyright (c) 2026 INFO TECH MICROSYSTEMS')) {
+  if (!content.includes('Copyright (c) 2026 Info Tech Microsystems')) {
     fs.writeFileSync(filePath, COPYRIGHT_HEADER + content, 'utf8');
     modifiedCount++;
     console.log(`Added copyright to: ${filePath}`);

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -317,7 +317,7 @@ export const ServiceDetailPage: React.FC = () => {
             {t('serviceDetail.ctaTitle', 'Ready to Engage on This Service?')}
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-xs sm:text-sm mt-1">
-            {t('serviceDetail.ctaDesc', 'Submit an inquiry directly for this offering or speak with Sudarsha Wijenayake to discuss timeline, architecture, or resource allocation.')}
+            {t('serviceDetail.ctaDesc', 'Submit an inquiry directly for this offering or speak with our consulting specialists to discuss timeline, architecture, or resource allocation.')}
           </p>
         </div>
         <div className="max-w-3xl mx-auto">

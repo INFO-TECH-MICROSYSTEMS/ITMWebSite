@@ -10,7 +10,7 @@
 
 ## 1. Globalization Architecture Overview
 
-The INFO TECH MICROSYSTEMS web suite is engineered from the ground up to support international enterprises, multinational engineering squads, and global clients. The platform provides complete localization across the **11 most widely spoken languages in the world**, featuring dynamic runtime switching, automatic browser locale detection, persistent caching, and full Right-to-Left (RTL) bidirectional layout handling.
+The Info Tech Microsystems web suite is engineered from the ground up to support international enterprises, multinational engineering squads, and global clients. The platform provides complete localization across the **11 most widely spoken languages in the world**, featuring dynamic runtime switching, automatic browser locale detection, persistent caching, and full Right-to-Left (RTL) bidirectional layout handling.
 
 ```mermaid
 graph TD
@@ -102,5 +102,5 @@ const services = useLocalizedServices();
 ---
 
 <div align="center">
-  <sub>Document maintained by INFO TECH MICROSYSTEMS Internationalization Working Group.</sub>
+  <sub>Document maintained by Info Tech Microsystems Internationalization Working Group.</sub>
 </div>

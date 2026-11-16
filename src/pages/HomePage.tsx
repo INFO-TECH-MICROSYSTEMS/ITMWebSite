@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 import { 
   ArrowRight, CheckCircle2, ShieldCheck, Cpu, Code2, Compass, 
   GraduationCap, UserCheck, BarChart3, TrendingUp, Sparkles, MapPin, 
-  Phone, Mail, Layers, Award, Wrench, ChevronRight
+  Phone, Mail, Layers, Award, Wrench, ChevronRight, Shield
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedServices } from '../hooks/useLocalizedData';
@@ -60,7 +60,7 @@ export const HomePage: React.FC = () => {
 
           {/* Hero Subtitle */}
           <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed mb-8">
-            <strong className="text-slate-900 dark:text-white">INFO TECH MICROSYSTEMS (ITM)</strong>{' '}
+            <strong className="text-slate-900 dark:text-white">Info Tech Microsystems (ITM)</strong>{' '}
             {t('hero.subtitle', 'provides end-to-end software development, hands-on project consulting, workforce training, automated QA frameworks, technical talent acquisition, software KPIs, and performance governance.')}
           </p>
 
@@ -107,7 +107,7 @@ export const HomePage: React.FC = () => {
               className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-8 py-4 rounded-xl bg-white dark:bg-slate-950 hover:bg-slate-50 dark:hover:bg-slate-900 text-slate-800 dark:text-slate-300 hover:text-cyan-700 dark:hover:text-white border border-slate-200 dark:border-slate-800 font-semibold text-base transition-all duration-300 shadow-sm cursor-pointer"
             >
               <Mail className="w-5 h-5 text-purple-600 dark:text-purple-400" />
-              <span>{t('hero.contactSudarsha', 'Contact Sudarsha')}</span>
+              <span>{t('hero.contactOurTeam', 'Contact Us')}</span>
             </Link>
           </div>
         </div>
@@ -117,7 +117,7 @@ export const HomePage: React.FC = () => {
           <div className="rounded-xl overflow-hidden bg-white dark:bg-slate-950 flex items-center justify-center p-4 sm:p-8">
             <img 
               src={theme === 'dark' ? '/assets/itm-logo-dark.png' : '/assets/itm-logo-light.png'} 
-              alt="INFO TECH MICROSYSTEMS Banner" 
+              alt="Info Tech Microsystems Banner" 
               className="w-full max-h-56 object-contain filter drop-shadow-[0_0_25px_rgba(0,180,216,0.25)] dark:drop-shadow-[0_0_25px_rgba(0,210,255,0.4)]"
             />
           </div>
@@ -257,45 +257,53 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* Leadership & Founder Spotlight Section */}
+      {/* Corporate Mission & Engineering Philosophy Section */}
       <section className="relative z-10 py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="rounded-3xl p-8 sm:p-12 bg-gradient-to-r from-cyan-50/70 via-white to-purple-50/70 dark:from-slate-900/90 dark:via-[#0d1326]/95 dark:to-slate-900/90 border border-slate-200 dark:border-cyan-500/30 shadow-xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-80 h-80 bg-purple-600/10 rounded-full blur-3xl pointer-events-none"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            {/* Founder Portrait with frame */}
-            <div className="lg:col-span-4 flex justify-center">
-              <div className="relative group">
-                <div className="absolute -inset-1.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-2xl blur opacity-50 dark:opacity-70 group-hover:opacity-100 transition duration-300"></div>
-                <div className="relative rounded-2xl overflow-hidden bg-white dark:bg-slate-950 p-1 border border-cyan-300 dark:border-cyan-400/40 shadow-xl">
-                  <img 
-                    src="/assets/sudarsha-wijenayake.jpg" 
-                    alt="Sudarsha Wijenayake - Founder of INFO TECH MICROSYSTEMS" 
-                    className="w-64 h-72 sm:w-72 sm:h-80 object-cover rounded-xl"
-                  />
-                  <div className="p-3 bg-slate-50 dark:bg-slate-950/95 text-center border-t border-slate-200 dark:border-slate-800">
-                    <h4 className="text-slate-900 dark:text-white font-bold text-base font-['Outfit']">{t('founderSpotlight.founderName', 'Sudarsha Wijenayake')}</h4>
-                    <p className="text-xs text-cyan-700 dark:text-cyan-400 font-mono font-semibold">{t('founderSpotlight.founderRole', 'Founder & Principal Technology Consultant')}</p>
-                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">{t('founderSpotlight.companyName', 'INFO TECH MICROSYSTEMS')}</p>
+            {/* Corporate Brand Card */}
+            <div className="lg:col-span-5 flex justify-center">
+              <div className="relative group w-full max-w-sm">
+                <div className="absolute -inset-1.5 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 rounded-3xl blur opacity-50 dark:opacity-70 group-hover:opacity-100 transition duration-300"></div>
+                <div className="relative rounded-2xl overflow-hidden bg-white dark:bg-slate-950 p-6 border border-cyan-300 dark:border-cyan-400/40 shadow-xl text-center space-y-4">
+                  <div className="w-20 h-20 mx-auto rounded-2xl bg-gradient-to-br from-cyan-500/20 to-purple-600/20 border border-cyan-400/40 flex items-center justify-center text-cyan-600 dark:text-cyan-300 shadow-inner">
+                    <Shield className="w-10 h-10" />
+                  </div>
+                  <div>
+                    <h4 className="text-slate-900 dark:text-white font-bold text-lg font-['Outfit']">Info Tech Microsystems</h4>
+                    <p className="text-xs text-cyan-700 dark:text-cyan-400 font-mono font-semibold mt-1">Enterprise Software Engineering & Advisory</p>
+                    <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-1">Ottawa, Ontario, Canada</p>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100 dark:border-slate-800 text-[11px] font-mono text-slate-600 dark:text-slate-300">
+                    <div className="p-2 rounded-lg bg-slate-50 dark:bg-slate-900">
+                      <span className="block font-bold text-cyan-600 dark:text-cyan-400">7</span>
+                      Disciplines
+                    </div>
+                    <div className="p-2 rounded-lg bg-slate-50 dark:bg-slate-900">
+                      <span className="block font-bold text-purple-600 dark:text-purple-400">100%</span>
+                      Client Accountability
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Leadership Message & Credentials */}
-            <div className="lg:col-span-8 space-y-4">
+            {/* Corporate Mission Narrative */}
+            <div className="lg:col-span-7 space-y-4">
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-cyan-50 border border-cyan-200 text-cyan-700 dark:bg-cyan-950/80 dark:text-cyan-400 dark:border-cyan-500/30 font-mono">
                 <Award className="w-3.5 h-3.5" />
-                <span>{t('founderSpotlight.badge', 'EXECUTIVE CONSULTING & RIGOR')}</span>
+                <span>{t('founderSpotlight.badge', 'CORPORATE MISSION & RIGOR')}</span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-['Outfit']">
-                {t('founderSpotlight.title', 'Leadership Grounded in Deep Technical Competence')}
+                {t('founderSpotlight.title', 'Engineering Grounded in Measurable Competence')}
               </h3>
               <p className="text-slate-700 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-                {t('founderSpotlight.quote', '"At INFO TECH MICROSYSTEMS, our philosophy is anchored in tangible engineering excellence. Whether we are writing complex cloud-native microservices, designing fail-safe automated QA frameworks, recruiting specialized technical personnel, or establishing board-level software KPIs, we bring an uncompromising dedication to precision, transparency, and client ROI."')}
+                {t('founderSpotlight.quote', '"At Info Tech Microsystems, our philosophy is anchored in tangible engineering excellence. Whether we are writing complex cloud-native microservices, designing fail-safe automated QA frameworks, recruiting specialized technical personnel, or establishing board-level software KPIs, we bring an uncompromising dedication to precision, transparency, and client ROI."')}
               </p>
               <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                {t('founderSpotlight.bio', 'Based out of Ottawa, Ontario, Sudarsha leads INFO TECH MICROSYSTEMS with decades of hands-on software development, enterprise architecture, quality engineering, and technical workforce mentorship.')}
+                {t('founderSpotlight.bio', 'Based out of Ottawa, Ontario, Info Tech Microsystems partners with enterprise organizations and scale-ups with decades of combined software engineering experience, enterprise architecture, quality automation, and technical workforce mentorship.')}
               </p>
 
               {/* Contact Direct Strip */}
@@ -305,20 +313,20 @@ export const HomePage: React.FC = () => {
                   className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-white dark:bg-slate-950 border border-slate-200 dark:border-cyan-500/30 text-slate-800 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors shadow-sm"
                 >
                   <Phone className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
-                  <span>{t('founderSpotlight.callFounder', 'Call Sudarsha: +1 613 266 5285')}</span>
+                  <span>+1 613 266 5285</span>
                 </a>
                 <a 
-                  href="mailto:sudarsha.wijenayake@gmail.com" 
-                  className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-white dark:bg-slate-950 border border-slate-200 dark:border-purple-500/30 text-slate-800 dark:text-white hover:text-purple-600 dark:hover:text-purple-400 transition-colors shadow-sm"
+                  href="mailto:contact@infotechmicrosystems.com" 
+                  className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-white dark:bg-slate-950 border border-slate-200 dark:border-cyan-500/30 text-slate-800 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors shadow-sm"
                 >
-                  <Mail className="w-4 h-4 text-purple-600 dark:text-purple-400" />
-                  <span>sudarsha.wijenayake@gmail.com</span>
+                  <Mail className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
+                  <span>contact@infotechmicrosystems.com</span>
                 </a>
                 <Link
                   to="/about"
                   className="text-cyan-700 dark:text-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 text-xs font-semibold inline-flex items-center space-x-1"
                 >
-                  <span>{t('founderSpotlight.readFullBio', 'Read Full Bio & Methodology')}</span>
+                  <span>{t('founderSpotlight.readFullBio', 'Read Our Mission & Principles')}</span>
                   <ArrowRight className="w-3.5 h-3.5 rtl:rotate-180" />
                 </Link>
               </div>
@@ -364,7 +372,7 @@ export const HomePage: React.FC = () => {
               {t('ctaSection.title', 'Ready to Upgrade Your Software Operations?')}
             </h2>
             <p className="text-slate-700 dark:text-slate-300 text-sm sm:text-base mb-8">
-              {t('ctaSection.description', 'Connect directly with INFO TECH MICROSYSTEMS for software product development, strategic project consulting, QA automation, workforce upskilling, staffing, or engineering audits.')}
+              {t('ctaSection.description', 'Connect directly with Info Tech Microsystems for software product development, strategic project consulting, QA automation, workforce upskilling, staffing, or engineering audits.')}
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <Link
@@ -372,7 +380,7 @@ export const HomePage: React.FC = () => {
                 className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-8 py-4 rounded-xl bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold text-sm shadow-xl shadow-cyan-600/25 transition-all cursor-pointer"
               >
                 <Mail className="w-4 h-4" />
-                <span>{t('ctaSection.contactButton', 'Contact Sudarsha Wijenayake')}</span>
+                <span>{t('ctaSection.contactButton', 'Contact Info Tech Microsystems')}</span>
               </Link>
               <a
                 href="tel:+16132665285"

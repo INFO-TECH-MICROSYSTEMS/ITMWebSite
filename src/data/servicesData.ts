@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2026 INFO TECH MICROSYSTEMS. All Rights Reserved.
+ * Copyright (c) 2026 Info Tech Microsystems. All Rights Reserved.
  * 
  * Proprietary and Confidential.
  * Unauthorized copying, distribution, or modification of this file,
@@ -17,9 +17,9 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Software Development & Maintenance',
     tagline: 'End-to-end engineering of modern web, n-tier, enterprise, cloud SaaS, mobile, and microservices architectures.',
     iconName: 'Code2',
-    summary: 'From initial prototype to mission-critical multi-tenant cloud platforms, INFO TECH MICROSYSTEMS designs, builds, optimizes, and sustains high-performance software systems tailored to your business objectives.',
+    summary: 'From initial prototype to mission-critical multi-tenant cloud platforms, Info Tech Microsystems designs, builds, optimizes, and sustains high-performance software systems tailored to your business objectives.',
     fullDescription: [
-      'INFO TECH MICROSYSTEMS delivers cutting-edge software engineering across the entire application lifecycle. Whether architecting resilient cloud-native microservices from the ground up, refactoring legacy monolithic systems into modular n-tier layers, or delivering responsive cross-platform web and mobile experiences, we apply rigorous engineering standards and modern toolchains.',
+      'Info Tech Microsystems delivers cutting-edge software engineering across the entire application lifecycle. Whether architecting resilient cloud-native microservices from the ground up, refactoring legacy monolithic systems into modular n-tier layers, or delivering responsive cross-platform web and mobile experiences, we apply rigorous engineering standards and modern toolchains.',
       'Our engineering capability spans responsive progressive web applications, enterprise ERP/CRM extensions, secure SaaS multi-tenant portals, scalable microservices networks, and native/hybrid iOS and Android apps. We don\'t merely deploy code; we guarantee maintainability, observability, robust automated test harnesses, and predictable continuous delivery.',
       'We also provide ongoing 24/7 SLA maintenance, security patch governance, performance tuning, and technical debt remediation to ensure your software remains agile and secure as your user base expands.'
     ],
@@ -103,9 +103,9 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Software Consulting & Lifecycle Advisory',
     tagline: 'Expert advisory and hands-on execution across requirement elicitation, architecture, testing, support, and maintenance.',
     iconName: 'Compass',
-    summary: 'INFO TECH MICROSYSTEMS embeds seasoned leadership and strategic consulting into your software initiatives to eliminate costly blind spots, accelerate time-to-market, and guarantee architectural excellence.',
+    summary: 'Info Tech Microsystems embeds seasoned leadership and strategic consulting into your software initiatives to eliminate costly blind spots, accelerate time-to-market, and guarantee architectural excellence.',
     fullDescription: [
-      'Software project success requires more than writing code; it demands rigorous cross-functional orchestration from the very first discovery session through long-term production sustainability. INFO TECH MICROSYSTEMS provides senior-level consultative leadership that bridges executive business vision with deep technical execution.',
+      'Software project success requires more than writing code; it demands rigorous cross-functional orchestration from the very first discovery session through long-term production sustainability. Info Tech Microsystems provides senior-level consultative leadership that bridges executive business vision with deep technical execution.',
       'Our consultants participate directly in or steer every lifecycle discipline: facilitating requirement elicitation workshops with stakeholders, formulating resilient architectural blueprints, establishing standardized testing paradigms, and designing frontline customer support workflows.',
       'Whether your project is at day zero or facing stagnation, deadline slippage, or architectural gridlock, we inject objective analysis, battle-tested governance, and hands-on technical intervention.'
     ],
@@ -186,7 +186,7 @@ export const SERVICES_DATA: ServiceItem[] = [
     iconName: 'GraduationCap',
     summary: 'Empower your engineering teams with industry-proven software development capabilities. We deliver targeted, real-world curriculum covering modern development, QA automation, customer support engineering, and requirement gathering.',
     fullDescription: [
-      'Technology evolves at a blistering pace, and the single highest-ROI investment a company can make is elevating the technical proficiency of its workforce. INFO TECH MICROSYSTEMS delivers immersive, role-specific training programs engineered for real enterprise impact.',
+      'Technology evolves at a blistering pace, and the single highest-ROI investment a company can make is elevating the technical proficiency of its workforce. Info Tech Microsystems delivers immersive, role-specific training programs engineered for real enterprise impact.',
       'Unlike generic online courses, our curriculums are tailored directly to your organization\'s domain, tech stack, and workflow bottlenecks. We train developers in modern clean architecture and cloud patterns, upskill QA testers into high-velocity test automation engineers, instruct business analysts in disciplined requirement elicitation, and train support personnel in technical triage and observability.',
       'Our programs feature hands-on coding labs, interactive architecture reviews, peer pairing, and measurable pre- and post-training competency assessments.'
     ],
@@ -265,9 +265,9 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Quality Assurance Strategies & Testing',
     tagline: 'Defect prevention through shift-left QA, automated testing frameworks, and multi-layered quality governance.',
     iconName: 'ShieldCheck',
-    summary: 'Elevate your software reliability with robust QA strategies. INFO TECH MICROSYSTEMS designs, implements, and executes automated test harnesses, continuous integration checks, and comprehensive quality roadmaps.',
+    summary: 'Elevate your software reliability with robust QA strategies. Info Tech Microsystems designs, implements, and executes automated test harnesses, continuous integration checks, and comprehensive quality roadmaps.',
     fullDescription: [
-      'In today’s competitive digital landscape, software quality is not an afterthought—it is your brand\'s primary defense. INFO TECH MICROSYSTEMS helps organizations replace fragmented, manual testing with disciplined, automated, and continuous Quality Assurance strategies.',
+      'In today’s competitive digital landscape, software quality is not an afterthought—it is your brand\'s primary defense. Info Tech Microsystems helps organizations replace fragmented, manual testing with disciplined, automated, and continuous Quality Assurance strategies.',
       'We institute the "Shift-Left" philosophy, integrating quality verification at every milestone: from static code analysis and unit test harnesses in the developer\'s IDE, to containerized API contract validation, comprehensive end-to-end browser and mobile automation, performance load testing, and security scanning.',
       'Our team defines the testing policies, implements custom automation frameworks using modern tooling like Playwright, Cypress, Selenium, and k6, and executes comprehensive manual exploratory sessions for complex enterprise workflows.'
     ],
@@ -346,9 +346,9 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Technical Staffing & Talent Recruitment',
     tagline: 'Vetted, high-impact engineers, managers, QA specialists, and writers selected through rigorous technical evaluation.',
     iconName: 'UserCheck',
-    summary: 'Eliminate hiring friction and costly mis-hires. INFO TECH MICROSYSTEMS recruits elite software professionals—from project managers and full-stack developers to test automation engineers and technical document writers.',
+    summary: 'Eliminate hiring friction and costly mis-hires. Info Tech Microsystems recruits elite software professionals—from project managers and full-stack developers to test automation engineers and technical document writers.',
     fullDescription: [
-      'Traditional recruitment agencies rely on keyword matching without understanding underlying software architecture, leading to mismatched resumes and wasted engineering interview hours. INFO TECH MICROSYSTEMS is a technology firm that recruits technology professionals.',
+      'Traditional recruitment agencies rely on keyword matching without understanding underlying software architecture, leading to mismatched resumes and wasted engineering interview hours. Info Tech Microsystems is a technology firm that recruits technology professionals.',
       'Because our core discipline is software engineering and quality assurance, our evaluation process is conducted by practicing engineers and technical architects. Every candidate is evaluated on algorithmic proficiency, real-world system design, clean coding habits, debugging acumen, and cultural alignment.',
       'We recruit for every role in modern software development: Project & Engineering Managers, Software Developers (Frontend, Backend, Fullstack, Mobile), QA Testers, Test Automation Developers, Technical Documentation Writers, and Customer Support Engineers.'
     ],
@@ -427,9 +427,9 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Software KPIs & Project Audits',
     tagline: 'Data-driven visibility into engineering health, DORA metrics, code quality audits, and regulatory compliance.',
     iconName: 'BarChart3',
-    summary: 'Make engineering excellence measurable. INFO TECH MICROSYSTEMS establishes tailored Key Performance Indicators (KPIs) and executes formal audit documentation for software development projects.',
+    summary: 'Make engineering excellence measurable. Info Tech Microsystems establishes tailored Key Performance Indicators (KPIs) and executes formal audit documentation for software development projects.',
     fullDescription: [
-      'You cannot improve what you do not measure. In modern software engineering, reliance on anecdotal progress reports leads to missed deadlines, unmanaged technical debt, and sudden production outages. INFO TECH MICROSYSTEMS brings rigorous, data-driven governance to your software lifecycle.',
+      'You cannot improve what you do not measure. In modern software engineering, reliance on anecdotal progress reports leads to missed deadlines, unmanaged technical debt, and sudden production outages. Info Tech Microsystems brings rigorous, data-driven governance to your software lifecycle.',
       'We formulate custom, actionable KPI dashboards aligned with modern frameworks such as DORA (DevOps Research and Assessment) and SPACE (Satisfaction, Performance, Activity, Communication, Efficiency).',
       'Simultaneously, we author formal, audit-grade documentation: Architectural Health Audits, Code Quality Scorecards, Security & Compliance Matrices, QA Coverage Verifications, and Vendor Delivery Scorecards required for enterprise stakeholders, board presentations, and regulatory bodies.'
     ],
@@ -508,10 +508,10 @@ export const SERVICES_DATA: ServiceItem[] = [
     shortTitle: 'Personnel Performance Management',
     tagline: 'Fair, transparent, objective frameworks to evaluate, mentor, and elevate software engineers, QA, and leadership.',
     iconName: 'TrendingUp',
-    summary: 'Align human potential with engineering output. INFO TECH MICROSYSTEMS builds and manages role-specific performance systems for managers, developers, testers, automation engineers, documentation writers, and support staff.',
+    summary: 'Align human potential with engineering output. Info Tech Microsystems builds and manages role-specific performance systems for managers, developers, testers, automation engineers, documentation writers, and support staff.',
     fullDescription: [
       'Managing software professionals requires specialized evaluation frameworks that honor the nuance of intellectual engineering work. Generic corporate HR appraisals fail because they cannot measure code craftsmanship, architectural foresight, testing rigor, or technical problem-solving under pressure.',
-      'INFO TECH MICROSYSTEMS creates and executes multi-dimensional performance management systems tailored to software engineering organizations. We establish objective competency matrices, transparent career ladders, and actionable 360-degree review cadences.',
+      'Info Tech Microsystems creates and executes multi-dimensional performance management systems tailored to software engineering organizations. We establish objective competency matrices, transparent career ladders, and actionable 360-degree review cadences.',
       'We govern performance across all key software project roles: Project and Engineering Managers, Software Developers, QA Manual Testers, Test Automation Developers, Technical Document Writers, and Customer Support Specialists.'
     ],
     capabilities: [
