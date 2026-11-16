@@ -50,6 +50,8 @@ export interface KPIAuditMetric {
   businessImpact: string;
 }
 
+export * from '../data/enterpriseData';
+
 export interface ContactInquiry {
   fullName: string;
   email: string;

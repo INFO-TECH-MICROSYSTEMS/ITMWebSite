@@ -249,7 +249,8 @@
     "capacityTitle": "Modelado de Capacidad y Velocidad de Sprint",
     "capacityDesc": "Modele la velocidad del equipo, la capacidad del sprint y las sobrecargas para predecir cronogramas de entrega.",
     "kpiCatalogTitle": "Catálogo de KPIs Empresariales y Benchmarks",
-    "kpiCatalogDesc": "Acceda a fórmulas estandarizadas, referencias objetivas y mejores prácticas de la industria."
+    "kpiCatalogDesc": "Acceda a fórmulas estandarizadas, referencias objetivas y mejores prácticas de la industria.",
+    "tabEstimator": "Calculadora de DORA y Velocidad"
   },
   "footer": {
     "description": "Info Tech Microsystems es una consultora de ingeniería de software, control de calidad, asesoría estratégica y talento técnico con sede en Ottawa, Ontario, Canadá. Diseñamos software empresarial resiliente y capacitamos equipos.",
@@ -283,5 +284,50 @@
     "s6Title": "Métricas de Software, KPIs, Mejora de Procesos y Auditorías de Calidad",
     "s7Short": "Gestión del Desempeño del Personal Técnico",
     "s7Title": "Gestión del Desempeño, Marcos de Competencias y Retención de Personal"
+  },
+  "industries": {
+    "badge": "SPECIALIZED SECTORS & DOMAIN EXPERTISE",
+    "title": "Engineering Tailored to Regulated Industries",
+    "subtitle": "We combine hands-on technical architecture with deep regulatory comprehension, delivering software solutions that satisfy stringent audits, zero-downtime requirements, and data sovereignty laws.",
+    "regulatoryFrameworks": "Regulatory Frameworks:",
+    "targetBenchmark": "Target Benchmark:"
+  },
+  "compliance": {
+    "badge": "INSTITUTIONAL TRUST & INTEGRITY",
+    "title": "Security, Data Sovereignty & Canadian Compliance",
+    "desc": "Info Tech Microsystems operates under rigorous compliance baselines, ensuring non-disclosure security, sovereign data containment, and audit traceability for government and enterprise partners."
+  },
+  "caseStudies": {
+    "badge": "PROVEN DELIVERY TRACK RECORD",
+    "title": "Enterprise Case Studies & Tangible ROI",
+    "subtitle": "Real-world transformation outcomes delivered across banking microservices, regulated healthcare QA frameworks, and public sector modernization programs.",
+    "discussSimilar": "Discuss a Similar Engagement →",
+    "theChallenge": "The Challenge:",
+    "theSolution": "Our Solution:"
+  },
+  "process": {
+    "badge": "DELIVERY EXCELLENCE & METHODOLOGY",
+    "title": "How Info Tech Microsystems Engages",
+    "subtitle": "A battle-tested 4-stage engagement blueprint engineered for predictable timelines, complete transparency, shift-left quality, and lasting client self-sufficiency.",
+    "verifiedDeliverables": "Verified Deliverables:"
+  },
+  "ecosystem": {
+    "title": "ENTERPRISE TOOLCHAINS & CLOUD ECOSYSTEM FLUENCY"
+  },
+  "estimator": {
+    "badge": "INTERACTIVE ENGAGEMENT SCOPE & BUDGET ESTIMATOR",
+    "title": "Configure Your Consulting Engagement Scope",
+    "subtitle": "Model projected timelines, deliverables, and resource allocations for planning board approvals and technical procurement.",
+    "selectModel": "1. Select Delivery Unit & Engagement Model:",
+    "engagementDuration": "2. Engagement Duration (Weeks):",
+    "weeks": "Weeks",
+    "months": "Months",
+    "complianceSupport": "Regulated Sector / Sovereign Data Gating",
+    "complianceHelp": "Requires PIPEDA, SOC 2 Type II, or Canadian Protected B cryptographic safeguards and security runbooks.",
+    "summaryTitle": "Estimated Scope Summary",
+    "projectedCostRange": "Projected Investment Range:",
+    "includedDeliverables": "Standard Verified Deliverables:",
+    "copyScope": "Copy Scope Summary",
+    "requestFormalProposal": "Request Formal Proposal →"
   }
 }

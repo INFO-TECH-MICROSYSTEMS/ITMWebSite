@@ -15,6 +15,10 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedServices } from '../hooks/useLocalizedData';
+import { EcosystemPartnersStrip } from '../components/enterprise/EcosystemPartnersStrip';
+import { IndustrySolutionsSection } from '../components/enterprise/IndustrySolutionsSection';
+import { CaseStudiesSection } from '../components/enterprise/CaseStudiesSection';
+import { DeliveryFrameworkSection } from '../components/enterprise/DeliveryFrameworkSection';
 import { useTheme } from '../context/ThemeContext';
 
 const iconMap: Record<string, React.ElementType> = {
@@ -363,6 +367,18 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Cloud & Toolchain Ecosystem Strip */}
+      <EcosystemPartnersStrip />
+
+      {/* Regulated Industry Verticals & Compliance */}
+      <IndustrySolutionsSection />
+
+      {/* Enterprise Case Studies & Tangible ROI */}
+      <CaseStudiesSection />
+
+      {/* 4-Stage Delivery Excellence Framework */}
+      <DeliveryFrameworkSection />
 
       {/* Bottom CTA & Direct Consultation Banner */}
       <section className="relative z-10 py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

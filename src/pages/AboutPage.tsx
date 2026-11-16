@@ -13,6 +13,8 @@ import {
   Target, Code2, Users, ArrowRight, Shield 
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { EcosystemPartnersStrip } from '../components/enterprise/EcosystemPartnersStrip';
+import { COMPLIANCE_STANDARDS } from '../data/enterpriseData';
 
 export const AboutPage: React.FC = () => {
   const { t } = useTranslation();
@@ -152,6 +154,45 @@ export const AboutPage: React.FC = () => {
           })}
         </div>
       </section>
+
+      {/* Institutional Compliance & Governance Section */}
+      <section className="mb-20">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <span className="text-xs font-mono uppercase text-cyan-700 dark:text-cyan-400 tracking-wider font-bold">
+            {t('compliance.badge', 'INSTITUTIONAL TRUST & INTEGRITY')}
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white font-['Outfit'] mt-1">
+            {t('compliance.title', 'Security, Data Sovereignty & Canadian Compliance')}
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-2">
+            {t('compliance.desc', 'Info Tech Microsystems operates under rigorous compliance baselines, ensuring non-disclosure security, sovereign data containment, and audit traceability for government and enterprise partners.')}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {COMPLIANCE_STANDARDS.map((std) => (
+            <div key={std.id} className="p-6 rounded-2xl bg-white dark:bg-slate-900/70 border border-slate-200 dark:border-slate-800 space-y-3 shadow-sm hover:border-cyan-500/40 transition-all">
+              <span className="text-[10px] font-mono text-cyan-700 dark:text-cyan-400 font-semibold px-2 py-0.5 rounded bg-cyan-50 dark:bg-cyan-950/80 border border-cyan-200 dark:border-cyan-500/30">
+                {std.badge}
+              </span>
+              <h3 className="text-base font-bold text-slate-900 dark:text-white font-['Outfit']">
+                {std.name}
+              </h3>
+              <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+                {std.description}
+              </p>
+              <div className="pt-2 text-[10px] font-mono text-slate-500 dark:text-slate-400 border-t border-slate-100 dark:border-slate-800">
+                {std.governanceScope}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Cloud & Toolchain Ecosystem Strip */}
+      <div className="mb-20">
+        <EcosystemPartnersStrip />
+      </div>
 
       {/* Ottawa Headquarters Card */}
       <section className="p-8 sm:p-10 rounded-3xl bg-white dark:bg-slate-900/80 border border-slate-200 dark:border-slate-800 shadow-sm">

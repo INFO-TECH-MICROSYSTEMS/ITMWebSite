@@ -9,17 +9,18 @@
 import React, { useState } from 'react';
 import { 
   BarChart3, ShieldCheck, Users, 
-  Copy, Check, ArrowRight, Gauge, Activity
+  Copy, Check, ArrowRight, Gauge, Activity, Calculator 
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useLocalizedAuditTemplates, useLocalizedCoreKPIs } from '../hooks/useLocalizedData';
+import { EngagementEstimator } from '../components/enterprise/EngagementEstimator';
 
 export const ToolsPage: React.FC = () => {
   const { t } = useTranslation();
   const auditTemplates = useLocalizedAuditTemplates();
   const coreKpis = useLocalizedCoreKPIs();
-  const [activeTab, setActiveTab] = useState<'calculator' | 'audit' | 'capacity' | 'kpis'>('calculator');
+  const [activeTab, setActiveTab] = useState<'estimator' | 'calculator' | 'audit' | 'capacity' | 'kpis'>('estimator');
 
   // --- TOOL 1: KPI & DORA Health Calculator State ---
   const [deployFreq, setDeployFreq] = useState<number>(10); // per month
@@ -152,6 +153,18 @@ export const ToolsPage: React.FC = () => {
       {/* Tabs navigation */}
       <div className="flex flex-wrap items-center justify-center gap-2 mb-10 pb-4 border-b border-slate-200 dark:border-slate-800">
         <button
+          onClick={() => setActiveTab('estimator')}
+          className={`flex items-center space-x-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
+            activeTab === 'estimator'
+              ? 'bg-cyan-600 text-white dark:bg-cyan-500 dark:text-slate-950 shadow-md font-bold'
+              : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 hover:text-cyan-700 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 shadow-sm'
+          }`}
+        >
+          <Calculator className="w-4 h-4" />
+          <span>{t('toolsPage.tabEstimator', 'Engagement Scope Estimator')}</span>
+        </button>
+
+        <button
           onClick={() => setActiveTab('calculator')}
           className={`flex items-center space-x-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
             activeTab === 'calculator'
@@ -199,6 +212,11 @@ export const ToolsPage: React.FC = () => {
           <span>{t('toolsPage.tabKpis', 'Standard KPI Reference Catalog')}</span>
         </button>
       </div>
+
+      {/* --- TAB 0: Interactive Scope & Budget Estimator --- */}
+      {activeTab === 'estimator' && (
+        <EngagementEstimator />
+      )}
 
       {/* --- TAB 1: DORA & KPI Health Calculator --- */}
       {activeTab === 'calculator' && (
