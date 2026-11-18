@@ -64,8 +64,7 @@ export const HomePage: React.FC = () => {
 
           {/* Hero Subtitle */}
           <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed mb-8">
-            <strong className="text-slate-900 dark:text-white">Info Tech Microsystems (ITM)</strong>{' '}
-            {t('hero.subtitle', 'provides end-to-end software development, hands-on project consulting, workforce training, automated QA frameworks, technical talent acquisition, software KPIs, and performance governance.')}
+            {t('hero.subtitle', 'Info Tech Microsystems (ITM) provides end-to-end software development, hands-on project consulting, workforce training, automated QA frameworks, technical talent acquisition, software KPIs, and performance governance.')}
           </p>
 
           {/* Quick Location & Direct Phone Bar */}
